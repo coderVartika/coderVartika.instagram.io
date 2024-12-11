@@ -1,0 +1,215 @@
+#sectionFirst{
+    position: absolute;
+    left:50px;
+}
+img[alt="feed"]{
+    top:85px;
+    left: 200px;
+    height: 603px;
+    width: 300px;
+    position: absolute;
+}
+img[ alt="ab"]{
+    height: 687px;
+    width: 390px;
+    position: absolute;
+    left: 250px;
+    top: 98px;
+}
+#Phone{
+    height: 40rem;
+    left: 255px;
+    width: 24rem;
+    top: 130px;
+    position: absolute;
+   
+    /* animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+#animation{
+    height: 518px;
+    border-radius: 29px;
+    width: 0rem;
+    position: absolute;
+    border: 1px solid black;
+    background: no-repeat;
+    background-size: contain;
+    top: 10rem;
+    height: 31.rem;
+    width: 15.5rem;
+    left: 20rem;
+    right: 0rem;
+    opacity: 1;
+    /* animation-name: demo; */
+    animation: demo 10s linear infinite;
+    background-position: center;
+}
+
+
+@keyframes demo{
+    0% {
+        background:url(./photos/apple.png);
+        background-size: cover;
+    }
+    25%{
+       
+        background:url(./photos/cat.png);
+        background-size: cover;
+    }
+    50%{
+       
+        background: url(./photos/chat.png);
+        background-size: cover;
+    }
+    100%{
+       
+        background: url(./photos/page.png);
+        background-size: cover;
+    }
+}
+
+#sectionSecond{
+    position: relative;
+    height: 400px;
+    width: 330px;
+    left:700px;
+    border: solid;
+    top: 120px;
+    border-color: rgb(237, 235, 235) ;
+    border-width: 0.2ch;
+    
+}
+img[alt="iglogo"]{
+ position:absolute;
+ height: 10.5em;
+ width: 15.5em;
+ bottom:15em;
+ left: 3.0em;
+}
+#firstinput{
+    position: absolute;
+    height: 2.5em;
+    width: 20.5em;
+    top:9.8em;
+    left:2em;
+   border-color: rgb(237, 235, 235) ;
+    border-width:0.1ch;border-radius: 6px;
+}
+#secondinput{
+    position: absolute;
+    height: 2.5em;
+    width: 20.5em;
+    top:13em;
+    left:2em;
+   border-color: rgb(237, 235, 235) ;
+    border-width:0.1ch;border-radius: 6px;
+}
+#login{
+position: absolute;
+height: 2.5em;
+width: 20.7em;
+background-color: rgb(8, 182, 251);
+color: white;
+top:17em;left: 2em;
+border:none;
+border-radius: 6px;;
+}
+#line1{
+    color: rgb(237, 235, 235);width: 7em;
+    position: absolute;
+    top:17.8em;
+    left:2em;
+}
+#line2{
+    color: rgb(237, 235, 235);
+    width:7em;
+    position: absolute;
+    top:17.8em;
+    left:12em;
+}
+#or{
+    color: rgb(128, 126, 126);
+    font-size: small;
+    position: absolute;
+    top: 21.9em;
+    left:12.2em;
+}
+#ll{
+    text-decoration: none;
+    color: rgb(57, 57, 104);
+  
+   height: 1.5em;
+   position: absolute;
+    left:7.6em;
+    top:20.67em;
+}
+img[alt="fb"]{
+        position:absolute;
+         height: 1.4em;
+        width: 1.4em;
+        left:6em;
+        top:20.5em;
+    }
+    #fp{
+        text-decoration: none;
+        color:rgb(44, 43, 43);
+        font-size: small;
+        position: absolute;
+        top:28.5em;
+        left:10em;
+    }
+#sectionThird{
+    position: absolute;
+    height: 70px;
+    width: 330px;
+    left:700px;
+    border: solid;
+    top: 540px;
+    border-color: rgb(237, 235, 235);
+    border-width: 0.2ch;
+
+}
+#sign{
+    position: absolute;
+    font-size: medium;
+     bottom :1.8em;
+     left: 4em;
+}
+#signup{
+    position: absolute;
+    text-decoration: none;
+    bottom:1.8em;
+    left:13em;
+    color: rgb(30, 180, 240);
+}
+#sectionFourth{
+    position: absolute;
+    height: 80px;
+    width: 330px;
+    left:660px;
+    border: none;
+    top: 619px;
+}
+#app{
+    position: absolute;
+    font-size: medium;
+    top:5px;
+    right:115px;
+}
+img[alt="google"]{
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    left: 27px;
+    top: 30px;
+}
+img[alt="microsoft"]{
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    left:178px;
+    top:30px;
+}
+
+   
